@@ -1,0 +1,19 @@
+nav {
+    background-color: rgb(95, 95, 158);
+    position: fixed;
+    bottom: 0;
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap; /* Use a space between row and nowrap */
+    justify-content: space-around;
+}
+
+
+nav a {
+    color: white;
+}
+
+nav a:hover {
+    text-decoration: none;
+}

@@ -1,0 +1,22 @@
+@import 'style/header.scss';
+@import 'style/typography.scss';
+@import 'style/products.scss';
+@import 'style/deliveries.scss';
+@import 'style/footer.scss';
+@import 'style/buttons.scss';
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 100%;
+}
+
+body {
+    line-height: 1.4;
+    font-family: sans-serif;
+}

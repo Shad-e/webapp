@@ -1,0 +1,51 @@
+.button {
+    color: #fff;
+    background-color: #2f63ac;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1rem;
+    padding: 0.4rem 1rem;
+    border: none;
+    text-align: center;
+    border-radius: 4px;
+    line-height: 1.4;
+}
+
+.button:hover {
+    background-color: #17478b;
+}
+
+.button:active {
+    background-color: #17478b;
+}
+
+
+.green-button {
+    color: #fff;
+    background-color: #1e9028;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1rem;
+    padding: 0.4rem 1rem;
+    text-align: center;
+    border-radius: 2px;
+    line-height: 1.4;
+    border: none;
+}
+
+.green-button:hover {
+    background-color: #0f6b17;
+}
+
+.green-button:active {
+    background-color: #0f6b17;
+}
+
+
+@media only screen and (max-width: 767px) {
+    .button {
+        width: 100%;
+    }
+}
